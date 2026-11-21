@@ -4,6 +4,9 @@ export const content = {
   ua: {
     nav: ['Кейси', 'Про мене', 'Контакти'],
     write: 'Написати',
+    home: 'Головна',
+    menuOpen: 'Відкрити меню',
+    menuClose: 'Закрити меню',
     name: 'Дарія Демко',
     title: 'UI/UX дизайнерка, яка поєднує UX-мислення, бізнес-контекст і сильний UI',
     lead: "Проєктую інтерфейси, які приводять людей до дії: спершу з'ясовую, що шукає користувач і де він вагається, а потім будую сторінку, яка веде його до заявки чи покупки.",
@@ -14,6 +17,9 @@ export const content = {
   en: {
     nav: ['Cases', 'About me', 'Contacts'],
     write: 'Contact me',
+    home: 'Home',
+    menuOpen: 'Open menu',
+    menuClose: 'Close menu',
     name: 'Dariia Demko',
     title: 'UI/UX designer who combines UX thinking, business context and strong UI',
     lead: 'I design interfaces that lead people to action: first I find out what the user is looking for and where they hesitate, then I build a page that leads them to an enquiry or a purchase.',
