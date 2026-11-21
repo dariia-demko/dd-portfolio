@@ -11,7 +11,7 @@ export const content = {
   },
   // English is the default language (see docs plan, Q2). Draft translation — please review.
   en: {
-    nav: ['Case studies', 'About me', 'Contacts'],
+    nav: ['Cases', 'About me', 'Contacts'],
     write: 'Contact me',
     name: 'Dariia Demko',
     title: 'UI/UX designer who combines UX thinking, business context and strong UI',
