@@ -7,7 +7,6 @@ export default function Hero({ t }: { t: T }) {
   return (
     <section className="hero" id="top">
       <div className="hero-text">
-        <p className="hero-name">{t.name}</p>
         <h1 className="hero-title">{t.title}</h1>
         <p className="hero-lead">{t.lead}</p>
         <a className="btn" href="#cases">{t.cta}</a>

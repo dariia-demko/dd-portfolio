@@ -59,7 +59,6 @@ body {
   padding: 120px var(--pad) 60px; overflow: hidden;
 }
 .hero-text { width: 680px; max-width: 100%; display: flex; flex-direction: column; align-items: flex-start; gap: 40px; }
-.hero-name { margin: 0; font-weight: 500; font-size: 24px; }
 .hero-title { margin: 0; font-weight: 900; font-size: 40px; line-height: normal; }
 .hero-lead { margin: 0; font-size: 24px; line-height: normal; }
 
@@ -94,6 +93,6 @@ body {
   .logo { transform: scale(0.7); transform-origin: left center; width: 200px; }
   .btn-sm { padding: 14px 18px; }
   .hero-title { font-size: 28px; }
-  .hero-lead, .hero-name { font-size: 18px; }
+  .hero-lead { font-size: 18px; }
   .polaroid { transform: scale(0.55); margin-bottom: -250px; }
 }
