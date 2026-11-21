@@ -9,7 +9,10 @@ export default function Hero({ t }: { t: T }) {
       <div className="hero-text">
         <h1 className="hero-title">{t.title}</h1>
         <p className="hero-lead">{t.lead}</p>
-        <a className="btn" href="#cases">{t.cta}</a>
+        <div className="hero-actions">
+          <a className="btn" href="#cases">{t.cta}</a>
+          <a className="btn btn-secondary" href="/Dariia-Demko-CV.pdf" download>{t.cv}</a>
+        </div>
       </div>
       <div className="polaroid" aria-hidden="false">
         <div className="polaroid-back" />
