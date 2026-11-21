@@ -6,6 +6,7 @@ import '@fontsource/poppins/600.css';
 import '@fontsource/poppins/700.css';
 import '@fontsource/poppins/900.css';
 import '@fontsource/caramel/400.css';
+import '@fontsource/marck-script/cyrillic-400.css';
 import './styles.css';
 import App from './App';
 

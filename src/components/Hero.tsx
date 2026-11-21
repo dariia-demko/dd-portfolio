@@ -17,7 +17,7 @@ export default function Hero({ t }: { t: T }) {
           <div className="polaroid-photo">
             <img src={photo} alt="Portrait of Dariia Demko" />
           </div>
-          <p className="polaroid-sign">Dariia Demko</p>
+          <p className="polaroid-sign">{t.name}</p>
         </div>
       </div>
     </section>
