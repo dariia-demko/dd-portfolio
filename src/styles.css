@@ -2,6 +2,7 @@
   --ink: #ececec;
   --dark: #111928;
   --pad: 60px;
+  --menu-h: 108px; /* logo 76px + 2 × 16px padding */
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -14,7 +15,7 @@ body {
 
 /* Menu */
 .menu {
-  position: absolute; top: 0; left: 0; right: 0; z-index: 10;
+  position: sticky; top: 0; z-index: 100; height: var(--menu-h);
   display: flex; align-items: center; justify-content: space-between;
   padding: 16px var(--pad);
   background: rgba(236, 236, 236, 0.2);
@@ -53,7 +54,8 @@ body {
 
 /* Hero */
 .hero {
-  position: relative; min-height: 1024px; height: 100vh; max-height: 1100px;
+  position: relative; margin-top: calc(var(--menu-h) * -1); /* hero background runs under the sticky menu */
+  min-height: 1024px; height: 100vh; max-height: 1100px;
   background: url('./assets/hero-bg.png') center / cover no-repeat;
   display: flex; align-items: center; justify-content: space-between;
   padding: 120px var(--pad) 60px; overflow: hidden;
